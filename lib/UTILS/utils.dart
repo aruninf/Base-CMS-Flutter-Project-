@@ -68,6 +68,7 @@ class Utility {
     prefs = await SharedPreferences.getInstance();
     return prefs.getStringList(value);
   }
+  //
 
   // static Future<bool> checkConnection() async {
   //   ConnectivityResult connectivityResult =
